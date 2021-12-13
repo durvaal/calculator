@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial=scale=1.0">
+    <title>Projeto 01</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/index.js"></script>
+  </head>
+  <body>
+    <div class="container-calculator">
+      <div class="calculator">
+        <div class="container-display keyboard-row">
+          <input type="text" id="container-display">
+        </div>
+        <div class="container-keyboard">
+          <div class="keyboard-row">
+            <div class="keyboard-button margin-rigth" onclick="setValueOnDisplay(7)">7</div>
+            <div class="keyboard-button margin-rigth" onclick="setValueOnDisplay(8)">8</div>
+            <div class="keyboard-button" onclick="setValueOnDisplay(9)">9</div>
+            <div class="keyboard-button margin-left" onclick="setValueOnDisplay('+')">+</div>
+          </div>
+          <div class="keyboard-row">
+            <div class="keyboard-button margin-rigth" onclick="setValueOnDisplay(4)">4</div>
+            <div class="keyboard-button margin-rigth" onclick="setValueOnDisplay(5)">5</div>
+            <div class="keyboard-button" onclick="setValueOnDisplay(6)">6</div>
+            <div class="keyboard-button margin-left" onclick="setValueOnDisplay('-')">-</div>
+          </div>
+          <div class="keyboard-row">
+            <div class="keyboard-button margin-rigth" onclick="setValueOnDisplay(1)">1</div>
+            <div class="keyboard-button margin-rigth" onclick="setValueOnDisplay(2)">2</div>
+            <div class="keyboard-button" onclick="setValueOnDisplay(3)">3</div>
+            <div class="keyboard-button margin-left" onclick="setValueOnDisplay('*')">*</div>
+          </div>
+          <div class="keyboard-row">
+            <div class="keyboard-button larger-height margin-rigth" onclick="setValueOnDisplay(0)">0</div>
+            <div class="keyboard-button larger-height margin-rigth" onclick="calculateValue()">=</div>
+            <div class="keyboard-column">
+              <div class="keyboard-row">
+                <div class="keyboard-button" onclick="setValueOnDisplay('.')"">,</div>
+                <div class="keyboard-button margin-left" onclick="setValueOnDisplay('/')">/</div>
+              </div>
+              <div class="keyboard-row">
+                <div class="keyboard-button larger-width" onclick="clearDisplayValue()">AC</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

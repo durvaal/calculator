@@ -1,0 +1,92 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.keyboard-row {
+  flex-direction: row;
+}
+
+.keyboard-column {
+  flex-direction: column;
+}
+
+.margin-left {
+  margin-left: 5px;
+}
+
+.margin-rigth {
+  margin-right: 5px;
+}
+
+.container-calculator {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-calculator .calculator {
+  padding: 5px;
+  background-color: #808080;
+}
+
+.container-calculator .container-display input {
+  height: 20px;
+  margin-bottom: 5px;
+
+}
+
+.container-calculator .container-keyboard .keyboard-row {
+  display: flex;
+  justify-content: center;
+}
+
+.container-calculator .container-keyboard .keyboard-button,
+.container-calculator .container-keyboard .keyboard-button.larger-height,
+.container-calculator .container-keyboard .keyboard-button.larger-width {
+  margin-bottom: 2px;
+  color: #000000;
+  font-size: 1em;
+  text-align: center;
+  padding: 5px;
+}
+
+.container-calculator .container-keyboard .keyboard-button {
+  border: 1px solid #375920;
+  background-color: #7ade38;
+  line-height: 24px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.container-calculator .container-keyboard .keyboard-button.larger-height {
+  border: 1px solid #375920;
+  background-color: #ffffff;
+  line-height: 62px;
+  width: 24px;
+  height: 62px;
+  cursor: pointer;
+}
+
+.container-calculator .container-keyboard .keyboard-button.larger-width {
+  border: 1px solid #375920;
+  background-color: #ffffff;
+  line-height: 24px;
+  width: 65px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.container-calculator .container-keyboard .keyboard-button:hover {
+  background-color: #375920;
+  color: #ffffff;
+}
+
+.container-calculator .container-keyboard .keyboard-button.larger-height:hover,
+.container-calculator .container-keyboard .keyboard-button.larger-width:hover {
+  background-color: #545554;
+  color: #ffffff;
+}
