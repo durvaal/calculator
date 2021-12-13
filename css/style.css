@@ -56,17 +56,15 @@ html, body {
 .container-calculator .container-keyboard .keyboard-button {
   border: 1px solid #375920;
   background-color: #7ade38;
-  line-height: 24px;
-  width: 24px;
-  height: 24px;
+  width: 36px;
+  height: 30px;
   cursor: pointer;
 }
 
 .container-calculator .container-keyboard .keyboard-button.larger-height {
   border: 1px solid #375920;
   background-color: #ffffff;
-  line-height: 62px;
-  width: 24px;
+  width: 36px;
   height: 62px;
   cursor: pointer;
 }
@@ -74,9 +72,8 @@ html, body {
 .container-calculator .container-keyboard .keyboard-button.larger-width {
   border: 1px solid #375920;
   background-color: #ffffff;
-  line-height: 24px;
-  width: 65px;
-  height: 24px;
+  width: 77px;
+  height: 30px;
   cursor: pointer;
 }
 
